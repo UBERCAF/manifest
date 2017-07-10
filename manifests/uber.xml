@@ -99,5 +99,6 @@
   <!-- UBERCAF Vendor -->
   <project path="vendor/uber" name="vendor" remote="uber" />
   <project path="vendor/huawei" name="vendor_huawei" remote="devices" />
+  <project path="vendor/oneplus" name="vendor_oneplus" remote="devices" />
 
 </manifest>
