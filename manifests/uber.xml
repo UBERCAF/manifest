@@ -96,6 +96,22 @@
   <project path="device/oneplus/onyx" name="device_oneplus_onyx" remote="devices" />
   <project path="kernel/oneplus/onyx" name="kernel_oneplus_onyx" remote="devices" />
 
+  <!-- UBERCAF HALs -->
+  <remove-project name="platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/audio/msm8974" name="hardware_qcom_audio" remote="uber" branch="master-8974" />
+  <project path="hardware/qcom/audio/msm8994" name="hardware_qcom_audio" remote="uber" branch="master-8994" />
+  <project path="hardware/qcom/audio/msm8996" name="hardware_qcom_audio" remote="uber" branch="master-8996" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/display/msm8974" name="hardware_qcom_display" remote="uber" branch="master-8974" />
+  <project path="hardware/qcom/display/msm8994" name="hardware_qcom_display" remote="uber" branch="master-8994" />
+  <project path="hardware/qcom/display/msm8996" name="hardware_qcom_display" remote="uber" branch="master-8996" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/media/msm8974" name="hardware_qcom_media" remote="uber" branch="master-8974" />
+  <project path="hardware/qcom/media/msm8994" name="hardware_qcom_media" remote="uber" branch="master-8994" />
+  <project path="hardware/qcom/media/msm8996" name="hardware_qcom_media" remote="uber" branch="master-8996" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="uber" branch="master" />
+
   <!-- UBERCAF Vendor -->
   <project path="vendor/uber" name="vendor" remote="uber" />
   <project path="vendor/huawei" name="vendor_huawei" remote="devices" />
