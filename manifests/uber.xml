@@ -99,6 +99,8 @@
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="devices" />
   <project path="device/oneplus/onyx" name="device_oneplus_onyx" remote="devices" />
   <project path="kernel/oneplus/onyx" name="kernel_oneplus_onyx" remote="devices" />
+  <remove-project name="device/qcom/sepolicy" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="devices" />
 
   <!-- UBERCAF HALs -->
   <remove-project name="platform/hardware/qcom/audio" />
