@@ -51,6 +51,7 @@
   <project path="art" name="art" remote="uber" />
   <remove-project name="platform/bionic" />
   <project path="bionic" name="bionic" remote="uber" />
+  <project path="prebuilts/build-tools" name="uberroms/prebuilts_build-tools" remote="bb" />
 
   <!-- UBERCAF System -->
   <remove-project name="platform/system/core" />
