@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.2_r6"
+           revision="refs/tags/android-7.1.2_r27"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="caf"
@@ -521,7 +521,7 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64"/>
   <project name="toolchain/binutils"/>
 
-  <!-- Paranoid Android additions -->
+  <!-- UBERCAF additions -->
   <include name="manifests/uber.xml"/>
 
 </manifest>
