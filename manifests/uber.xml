@@ -78,6 +78,8 @@
   <project path="frameworks/native" name="frameworks_native" remote="uber" />
   <remove-project name="platform/frameworks/rs" />
   <project path="frameworks/rs" name="frameworks_rs" remote="uber" />
+  <remove-project name="platform/frameworks/support" />
+  <project path="frameworks/support" name="frameworks_support" remote="uber" />
 
   <!-- UBERCAF External -->
   <remove-project name="platform/external/e2fsprogs" />
