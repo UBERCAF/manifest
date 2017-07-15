@@ -110,9 +110,10 @@
 
   <!-- UBERCAF HALs -->
   <remove-project name="platform/hardware/qcom/audio" />
-  <project path="hardware/qcom/audio/msm8974" name="hardware_qcom_audio" remote="uber" revision="master-8974" />
-  <project path="hardware/qcom/audio/msm8994" name="hardware_qcom_audio" remote="uber" revision="master-8994" />
-  <project path="hardware/qcom/audio/msm8996" name="hardware_qcom_audio" remote="uber" revision="master-8996" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="uber" revision="master" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="uber" revision="master-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="uber" revision="master-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="uber" revision="master-8996" />
   <remove-project name="platform/hardware/qcom/bt" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="uber" revision="master" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -123,9 +124,10 @@
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="uber" revision="master-8996" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/media/msm8974" name="hardware_qcom_media" remote="uber" revision="master-8974" />
-  <project path="hardware/qcom/media/msm8994" name="hardware_qcom_media" remote="uber" revision="master-8994" />
-  <project path="hardware/qcom/media/msm8996" name="hardware_qcom_media" remote="uber" revision="master-8996" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="uber" revision="master" />
+  <project path="hardware/qcom/media/msm8974-caf" name="hardware_qcom_media" remote="uber" revision="master-8974" />
+  <project path="hardware/qcom/media/msm8994-caf" name="hardware_qcom_media" remote="uber" revision="master-8994" />
+  <project path="hardware/qcom/media/msm8996-caf" name="hardware_qcom_media" remote="uber" revision="master-8996" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="uber" branch="master" />
 
