@@ -137,5 +137,7 @@
   <project path="vendor/uber" name="vendor" remote="uber" />
   <project path="vendor/huawei" name="vendor_huawei" remote="devices" />
   <project path="vendor/oneplus" name="vendor_oneplus" remote="devices" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="uber" />
 
 </manifest>
