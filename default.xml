@@ -2,18 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.2_r27"
+           revision="refs/tags/android-7.1.2_r6"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org"/>
-
-  <remote  name="github"
-           fetch="https://github.com"/>
-
-  <remote  name="github-ssh"
-           fetch="ssh://git@github.com"/>
 
   <default revision="refs/tags/LA.UM.5.8.r1-02200-8x98.0"
            remote="caf"
@@ -21,6 +15,22 @@
            sync-c="true"/>
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
+  <project groups="pdk" name="device/generic/arm64"/>
+  <project groups="pdk" name="device/generic/armv7-a-neon"/>
+  <project groups="pdk" name="device/generic/common"/>
+  <project groups="pdk" name="device/generic/goldfish"/>
+  <project groups="pdk" name="device/generic/goldfish-opengl"/>
+  <project groups="pdk" name="device/generic/mini-emulator-arm64"/>
+  <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon"/>
+  <project groups="pdk" name="device/generic/mini-emulator-x86"/>
+  <project groups="pdk" name="device/generic/mini-emulator-x86_64"/>
+  <project groups="pdk" name="device/generic/qemu"/>
+  <project groups="pdk" name="device/generic/x86"/>
+  <project groups="pdk" name="device/generic/x86_64"/>
+  <project groups="device,pdk" name="device/google/accessory/arduino"/>
+  <project groups="device,pdk" name="device/google/accessory/demokit"/>
+  <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv"/>
   <project groups="device,marlin" name="device/google/contexthub"/>
   <project name="device/qcom/common"/>
   <project name="device/qcom/sepolicy"/>
@@ -300,6 +310,7 @@
   <project groups="pdk" name="platform/external/zlib" path="external/zlib"/>
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing"/>
+  <!-- <project groups="pdk" name="platform/frameworks/av" path="frameworks/av"/> -->
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
@@ -521,7 +532,7 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64"/>
   <project name="toolchain/binutils"/>
 
-  <!-- UBERCAF additions -->
+  <!-- UBER additions -->
   <include name="manifests/uber.xml"/>
 
 </manifest>
