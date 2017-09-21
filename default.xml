@@ -2,16 +2,16 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-7.1.2_r6"
+           revision="refs/tags/android-7.1.2_r33"
            fetch="https://android.googlesource.com"/>
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org"/>
 
-  <default revision="refs/tags/LA.UM.5.8.r1-02200-8x98.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-02800-8x98.0"
            remote="caf"
-           sync-j="4"
+           sync-j="32"
            sync-c="true"/>
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2"/>
