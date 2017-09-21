@@ -13,6 +13,9 @@
            revision="master"
            fetch="https://github.com/UBERDEVICES/"/>
 
+  <remote name = "gh"
+          fetch = "https://github.com/" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="uber" />
 
