@@ -33,6 +33,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="uberroms/arm-linux-androideabi-7.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
+  <project path="vendor/qcom/sdclang-4.0" name="uberroms/vendor_qcom_sdclang-4.0" remote="bb" />
   
   <!-- Newer Clang Support -->
   <remove-project name="platform/bootable/recovery" />
