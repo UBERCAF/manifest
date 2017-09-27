@@ -105,6 +105,10 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="uber" />  
   <project path="packages/apps/OmniGears" name="packages_apps_OmniGears" remote="uber" />
 
+  <!-- UBERCAF Services -->
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="uber" />
+
   <!-- UBERCAF Devices -->
   <project path="device/huawei/angler" name="device_huawei_angler" remote="devices" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="devices" />
