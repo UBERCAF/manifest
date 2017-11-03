@@ -120,6 +120,16 @@
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="devices" />
 
+  <!-- Essentials -->
+  <project name="device_essential_mata" path="device/essential/mata" remote="devices" />
+  <project name="kernel_essential_msm8998" path="kernel/essential/msm8998" remote="devices" />
+  <project name="proprietary_vendor_essential" path="vendor/essential" remote="devices" />
+  <project name="kernel_essential_msm8998_drivers_staging_qcacld-3.0" path="kernel/essential/msm8998/drivers/staging/qcacld-3.0" remote="devices" />
+  <project name="kernel_essential_msm8998_drivers_staging_fw-api" path="kernel/essential/msm8998/drivers/staging/fw-api" remote="devices" />
+  <project name="kernel_essential_msm8998_drivers_staging_qca-wifi-host-cmn" path="kernel/essential/msm8998/drivers/staging/qca-wifi-host-cmn" remote="devices" />
+  <project name="device_essential_mata_data-ipa-cfg-mgr" path="device/essential/mata/data-ipa-cfg-mgr" remote="devices" />
+  <project name="device_essential_mata_gps" path="device/essential/mata/gps" remote="devices" />
+
   <!-- UBERCAF HALs -->
   <remove-project name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="uber" />
