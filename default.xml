@@ -9,7 +9,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org"/>
 
-  <default revision="refs/tags/LA.UM.5.8.r1-00300-8x98.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-03000-8x98.0"
            remote="caf"
            sync-j="32"
            sync-c="true"/>
