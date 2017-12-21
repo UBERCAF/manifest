@@ -535,10 +535,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- Uber manifest -->
+  <include name="manifests/uber.xml" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="caf_default.xml" />
+  <!-- CAF manifest -->
+  <include name="manifests/caf.xml" />
 
 </manifest>
