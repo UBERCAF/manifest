@@ -8,7 +8,7 @@
            fetch="https://github.com/GZOSP" />
 
   <remote  name="uber"
-           fetch="https://github.com/UBER" />
+           fetch="https://github.com/UBERCAF" />
 
   <default revision="8.1"
            remote="gzosp"
