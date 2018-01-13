@@ -541,4 +541,7 @@
   <!-- CAF manifest -->
   <include name="manifests/caf.xml" />
 
+  <!-- OPENGAPPS manifest -->
+  <include name="manifests/opengapps.xml" />
+
 </manifest>
