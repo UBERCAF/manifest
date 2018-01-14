@@ -89,7 +89,7 @@
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="uber" revision="oreo" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/uber" name="vendor" remote="uber" revision="oreo" />
 
